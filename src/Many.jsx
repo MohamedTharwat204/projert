@@ -1,4 +1,5 @@
-import Imgloge from './assets/logo.svg';
+// import Imgloge from './assets/logo.svg';
+import logo from "./assets/logo.svg";
 import { GoHomeFill } from "react-icons/go";
 import { IoSwapVerticalOutline } from "react-icons/io5";
 import { GrAnalytics } from "react-icons/gr";
@@ -14,7 +15,7 @@ export default function Many() {
     return (
         <div className="rounded-t-2xl fixed bottom-0 lg:relative w-full h-15 md:h-25 lg:w-90 lg:h-255 bg-derkme lg:rounded-r-2xl lg:rounded-tl-none flex flex-row lg:flex-col  ">
 
-            <img src={Imgloge} className='py-12 px-9 w-50 hidden lg:block' />
+            <img src={logo} className='py-12 px-9 w-50 hidden lg:block' />
 
             <div className='text-1xl md:text-1xl   justify-center lg:justify-normal  lg:text-1xl  gap-10 md:gap-6 lg:gap-1 grow flex flex-row w-full duration-500  lg:flex-col'>
 
